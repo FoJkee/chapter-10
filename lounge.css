@@ -38,8 +38,8 @@ h2 {
   margin-left: 20px;
   text-align: center;
   background: url(/lounge/images/cocktail.gif) repeat-x white;
-
   line-height: 1;
+  float: right;
 }
 #elixir h2 {
   color: black;
@@ -61,12 +61,32 @@ h2 {
   font-weight: bold;
 }
 
+#elixir a:link {
+  color: #007e7e;
+}
+#elixir a:visited {
+  color: #333333;
+}
+#elixir a:hover {
+  color: #0d5353;
+  background: #f88396;
+}
 a:link {
-  color: green;
+  color: #007e7e;
 }
 a:visited {
-  color: red;
+  color: #333333;
 }
-a:hover {
-  color: yellow;
+
+h1.blueberry {
+  color: blue;
+}
+h1 {
+  color: #efefef;
+}
+body h1 {
+  color: #cccccc;
+}
+h1 {
+  color: black;
 }
